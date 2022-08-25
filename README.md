@@ -1,5 +1,7 @@
+
+
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Tiktok-app-clone-reactjs-firebase" />
+  <img src="https://user-images.githubusercontent.com/48176173/186773751-cf8101d2-1a7f-4773-87a8-9e021846d407.png" width=200 height=200 alt="Tiktok-app-clone-reactjs-firebase" />
 
   &#xa0;
 
@@ -31,15 +33,22 @@
 
 <br>
 
+<div align="center" flex="row" >
+  <img src="https://user-images.githubusercontent.com/48176173/186774023-f290de87-3c09-4ec7-ad72-7abf1ae85650.png" width=600  alt="Tiktok-app-clone-reactjs-firebase" />
+  <img src="https://user-images.githubusercontent.com/48176173/186774030-08335080-4de2-4f58-9415-e88944c46ebf.png" width=600  alt="Tiktok-app-clone-reactjs-firebase" />
+
+
+</div>
+
 ## :dart: About ##
 
 A simple clone of TikTok app. Includes the video page of TikTok app. The buttons, music track info and video info are in the app and stored in Firebase. 
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Firebase File Management
-:heavy_check_mark: Firestore
-:heavy_check_mark: React-icons
+:heavy_check_mark: Firebase File Management \
+:heavy_check_mark: Firestore \
+:heavy_check_mark: React-icons 
 
 ## :rocket: Technologies ##
 
@@ -52,8 +61,8 @@ The following tools were used in this project:
 
 A Firebase account is required to continue to develop this app. Also React should be installed.
 
-There are 2 collections inside Firebase:
-videos -> stores 2 vids
+There are 2 collections inside Firebase: \
+videos -> stores 2 vids \
 users -> stores a user which is the current user — to handle follows 
 
 ## :checkered_flag: Starting ##
