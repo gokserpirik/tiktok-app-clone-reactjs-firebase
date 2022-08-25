@@ -3,13 +3,6 @@ import db from './firebase';
 import firebase from 'firebase/compat/app';
 import './VideoSidebar.css';
 
-/* değişiklik olduysa
-followed ise
-doc.data çoğalt
-array'e username ekle
-çoğaltılmış array'i set et
-firebase'i update et
-*/
 function ProfilePic({profilepic, username}) {
 
 
