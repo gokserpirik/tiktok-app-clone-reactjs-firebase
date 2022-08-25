@@ -1,0 +1,61 @@
+.videoFooter{
+    position: relative; /* when we use absolute for recordspin, position: relative helped us */
+    color: white;
+    bottom: 150px;
+    margin-left: 40px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.videoFooter__text{
+    flex: 1;
+    
+}
+.videoFooter__text> h3, p{
+    padding-bottom: 20px;
+}
+
+.videoFooter__text> p{
+    width: 60%;
+}
+
+.videoFooter__ticker{
+    display: flex;
+}
+
+
+.videoFooter__icon{
+    padding-right: 5px;
+    
+}
+.videoFooter__ticker> marquee{
+    padding-top: 5px;
+    width: 50%;
+
+ 
+}
+
+@keyframes Record-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.videoFooter__record {
+    filter: invert(1);
+ animation: Record-spin infinite 5s linear;
+
+ height: 40px;
+    width: 40px;
+/*     margin-right: 10px;  I forgot why I added this. */    
+    bottom: 0;
+    position: absolute;
+    right: 40px;
+}
+
