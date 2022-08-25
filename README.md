@@ -61,8 +61,8 @@ The following tools were used in this project:
 
 A Firebase account is required to continue to develop this app. Also React should be installed.
 
-There are 2 collections inside Firebase:
-videos -> stores 2 vids
+There are 2 collections inside Firebase: \
+videos -> stores 2 vids \
 users -> stores a user which is the current user — to handle follows 
 
 ## :checkered_flag: Starting ##
