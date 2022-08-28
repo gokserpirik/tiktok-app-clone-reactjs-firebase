@@ -35,7 +35,8 @@
 
 <div align="center" flex="row" >
   <img src="https://user-images.githubusercontent.com/48176173/186774023-f290de87-3c09-4ec7-ad72-7abf1ae85650.png" width=600  alt="Tiktok-app-clone-reactjs-firebase" />
-  <img src="https://user-images.githubusercontent.com/48176173/186774030-08335080-4de2-4f58-9415-e88944c46ebf.png" width=600  alt="Tiktok-app-clone-reactjs-firebase" />
+  <img src="https://user-images.githubusercontent.com/48176173/187094021-f0024277-1296-4f47-b1e9-12e94f2db302.png" width=600  alt="Tiktok-app-clone-reactjs-firebase" />
+  <img src="https://user-images.githubusercontent.com/48176173/187094025-86279235-895c-4328-b9a0-476795bb6a32.png" width=600  alt="Tiktok-app-clone-reactjs-firebase" />
 
 
 </div>
