@@ -1,7 +1,7 @@
 import React from "react";
 import "./VideoFooter.css";
 
-import { FaMusic } from "react-icons/fa";
+
 import {BsMusicNoteBeamed} from "react-icons/bs"
 
 

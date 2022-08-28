@@ -40,6 +40,10 @@
 
 </div>
 
+## :rocket: Update ##
+I don't remember where was I, but I made few changes on the app. Now, commenting and comment liking functions are available. The comment likes are counted in the database — also the IDs of the comments the user liked!\
+Also tried to make functions as separate as they can be from the html code. So you can check functions without checking the html and vice versa.
+
 ## :dart: About ##
 
 A simple clone of TikTok app. Includes the video page of TikTok app. The buttons, music track info and video info are in the app and stored in Firebase. 
@@ -49,6 +53,7 @@ A simple clone of TikTok app. Includes the video page of TikTok app. The buttons
 :heavy_check_mark: Firebase File Management \
 :heavy_check_mark: Firestore \
 :heavy_check_mark: React-icons 
+
 
 ## :rocket: Technologies ##
 
@@ -63,7 +68,7 @@ A Firebase account is required to continue to develop this app. Also React shoul
 
 There are 2 collections inside Firebase: \
 videos -> stores 2 vids \
-users -> stores a user which is the current user — to handle follows 
+users -> stores a user which is the current user
 
 ## :checkered_flag: Starting ##
 

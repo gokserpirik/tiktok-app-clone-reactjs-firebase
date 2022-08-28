@@ -1,0 +1,125 @@
+.sharePage{
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    bottom: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+
+    color: #4E4F57;
+
+}
+
+.sharePage__content > hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.sharePage__content{
+    padding-top: 10px;
+    background-color: #fff;
+
+}
+
+.sharePage__top{
+    width: 100%;
+    height: 20px;
+    position: relative;
+    color: #161722
+}
+
+.sharePage__to{
+    text-align: center;
+ 
+
+}
+.sharePage__close{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.sharePage__people, .sharePage__ways, .sharePage__options {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 100px;    
+
+}
+
+.sharePage__repost, .sharePage__more, .sharePage__person, .sharePage__way__instaStory, .sharePage__way__wp, .sharePage__option{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85px;
+    justify-content: space-between;
+    padding : 10px;
+}
+
+
+
+.sharePage__person__img, .sharePage__more__icon, .sharePage__repost__icon, .sharePage__option__icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    display: grid;
+    place-items: center;
+    color: #161722;
+}
+
+.sharePage__more__icon, .sharePage__option__icon{
+    background-color: #E8E8E7;
+    font-size: 20px;
+
+
+}
+
+.sharePage__repost__icon{
+    background-color: #FFD646;
+    color: rgb(243, 243, 243);
+    font-size: 30px;
+}
+
+.sharePage__way__instaStory > .sharePage__way__icon{
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.sharePage__way__wp > .sharePage__way__icon{
+    background: #128c7e;
+    font-size: 20px;
+
+}
+
+.sharePage__way__icon{
+    width: 40px;
+height: 40px;
+border-radius: 50%;
+
+display: grid;
+place-items: center;
+
+color: rgb(243, 243, 243);
+font-size: 20px;
+}
+
+
+/* 
+ background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+*/
